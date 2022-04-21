@@ -1,0 +1,74 @@
+
+/*TEXTOS*/
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+}
+.nosotros{
+    text-decoration: underline;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 2.8rem;
+
+}
+.marcs{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    top: 2rem;
+    text-decoration: underline;
+}
+.subti{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem;
+    position: relative;
+    top: 1rem;
+}
+li{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+h5{
+    text-decoration: underline;
+}
+
+.sobreNosotros{
+    font-size: 30px;
+}
+
+/*GENERAL*/
+
+Html body {
+    width: 100%;
+    Overflow-x: hidden;
+}
+.body{
+    background-image: url(./imagenes/pexels-wendy-van-zyl-1212179.jpg);
+}
+
+/*HOME*/
+
+.bienvenida{
+    height: auto;
+    width: 100%;
+}
+.logos{
+    height: auto;
+    width: 100%;
+}
+
+/*SOBRENOSOTROS*/
+
+.hilosNosotros{
+    height: auto;
+    width: 100%;
+}
+

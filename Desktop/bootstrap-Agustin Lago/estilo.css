@@ -7,6 +7,11 @@ h1{
 h2{
     text-align: center;
 }
+h4{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem;
+}
 .nosotros{
     text-decoration: underline;
 }
@@ -63,7 +68,9 @@ Html body {
 .logos{
     height: auto;
     width: 100%;
+    margin: 10px;
 }
+
 
 /*SOBRENOSOTROS*/
 
@@ -72,4 +79,13 @@ Html body {
     width: 100%;
 }
 
+/*CONTACTOS*/
 
+.conta{
+    margin: 1rem;
+}
+.ubicacion{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}

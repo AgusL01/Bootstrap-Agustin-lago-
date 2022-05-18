@@ -1,21 +1,33 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 /*TEXTOS*/
+.nuestrasMaquinas {
+  text-align: center;
+  text-decoration: underline; }
+
+.nuestrosHlios {
+  text-align: center;
+  text-decoration: underline; }
+
+.contacto {
+  text-align: center; }
+
 h4 {
   text-align: center;
   text-decoration: underline;
-  margin: 1rem; }
+  margin: 1rem;
+  color: white; }
 
 .nosotros {
   text-decoration: underline;
   text-align: center; }
 
 .bienvenida {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 2.8rem; }
 
 .parafoNosotros {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 2.8rem; }
 
@@ -28,7 +40,7 @@ h4 {
   text-decoration: underline; }
 
 .subti {
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: underline;
   margin: 2rem;
@@ -36,19 +48,30 @@ h4 {
   top: 1rem; }
 
 li {
-  color: black;
+  color: white;
   text-decoration: none; }
 
 h5 {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: white; }
 
 .sobreNosotros {
   font-size: 30px; }
 
+h2 {
+  color: white; }
+
+h1 {
+  color: white; }
+
+p {
+  color: white; }
+
 /*GENERAL*/
 html body {
   width: 100%;
-  Overflow-x: hidden; }
+  Overflow-x: hidden;
+  background-image: url(../imagenes/fondopaginahilso.jpg); }
 
 /*HOME*/
 .bienvenida {
@@ -60,8 +83,17 @@ html body {
   width: 100%;
   margin: 10px; }
 
+/*PRODUCTOS*/
+.conoJean3 {
+  align-items: center; }
+
+/*CONTACTOS*/
 footer {
-  position: fixed;
+  position: relative;
+  top: 100px; }
+
+/*FOOTER*/
+footer {
   bottom: 0px;
   width: 100%;
   background: #111111;

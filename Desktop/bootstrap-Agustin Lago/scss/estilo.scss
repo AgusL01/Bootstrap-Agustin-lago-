@@ -76,6 +76,9 @@ footer{
     width: 100%;
     background: #111111;
     color: white;
+    p,a, h2, i{
+        color: white;
+    }
     .main-cajonete{
         display: flex;
         .izquierda .cajon{

@@ -6,7 +6,8 @@ h4 {
   margin: 1rem; }
 
 .nosotros {
-  text-decoration: underline; }
+  text-decoration: underline;
+  text-align: center; }
 
 .bienvenida {
   color: black;
@@ -65,6 +66,8 @@ footer {
   width: 100%;
   background: #111111;
   color: white; }
+  footer p, footer a, footer h2, footer i {
+    color: white; }
   footer .main-cajonete {
     display: flex; }
     footer .main-cajonete .izquierda .cajon .parrafoo {

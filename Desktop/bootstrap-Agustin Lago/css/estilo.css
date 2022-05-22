@@ -67,10 +67,12 @@ h1 {
 p {
   color: white; }
 
+/*SOBRE NOSOTROS*/
 /*GENERAL*/
-html body {
+html, body {
   width: 100%;
-  Overflow-x: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   background-image: url(../imagenes/fondopaginahilso.jpg); }
 
 /*HOME*/
@@ -88,11 +90,19 @@ html body {
   align-items: center; }
 
 /*CONTACTOS*/
-footer {
-  position: relative;
-  top: 100px; }
+.ubicacion {
+  margin-top: 20px; }
 
 /*FOOTER*/
+@media screen and (max-width: 600px) {
+  footer {
+    display: block;
+    float: none;
+    width: 100%; } }
+
+footer {
+  margin-top: 100px; }
+
 footer {
   bottom: 0px;
   width: 100%;
@@ -138,3 +148,5 @@ footer {
         height: 2px;
         width: 15%;
         background: #2196f3; }
+
+/*ERROR 404*/
